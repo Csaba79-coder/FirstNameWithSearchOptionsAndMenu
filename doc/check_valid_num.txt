@@ -1,0 +1,28 @@
+
+    private boolean isValid(int num) {
+        List<Integer> integers = new ArrayList<>();
+        integers.add(0);
+        integers.add(1);
+        integers.add(2);
+        integers.add(3);
+        integers.add(4);
+        integers.add(5);
+        integers.add(6);
+
+        for (Integer number : integers) {
+            if (integers.contains(num)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public boolean isNumeric(String str) {
+      try {
+        Double.parseDouble(str);
+        return true;
+      } catch(NumberFormatException e){
+        return false;
+      }
+    }

@@ -1,0 +1,11 @@
+public void printActions() {
+        System.out.println("\nAvailable actions:\npress");
+        System.out.println("0  - to shut down\n" +
+                "1  - searching meaning by names\n" +
+                "2  - searching origin by names\n" +
+                "3  - which gender belongs the name (answer in Hungarian)\n" +
+                "4  - which gender belongs the name (answer in English)\n" +
+                "5  - find the name by meaning\n" +
+                "6  - to print a list of available actions");
+        System.out.println("Choose your action: ");
+    }
